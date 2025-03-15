@@ -15,6 +15,7 @@ public class CameraShake : MonoBehaviour
         initialPosition = transform.localPosition; // Baþlangýç pozisyonunu kaydet
     }
 
+    //if is sprinting ekle
     void Update()
     {
         if (isShaking)

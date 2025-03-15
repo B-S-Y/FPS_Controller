@@ -16,7 +16,7 @@ public class CameraFOV : MonoBehaviour
 
     void Update()
     {
-
+        //eksiði düzlet
 
         // Smoothly change the FOV based on sprinting state
         float targetFOV = sprintFOV;
