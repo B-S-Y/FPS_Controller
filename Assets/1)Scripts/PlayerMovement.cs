@@ -18,13 +18,16 @@ public class PlayerMovement : MonoBehaviour
     bool isCrouching;
     public Transform PlayerCamera;
 
-    private CameraShake cameraShake; // Reference to the CameraShake script
-    private CameraFOV cameraFOV; // Reference to the CameraFOV script
+    public CameraShake cameraShake; // Reference to the CameraShake script
+    //private CameraFOV cameraFOV; // Reference to the CameraFOV script
+    //GameObject cameraManager = GameObject.Find("CameraManager");
 
     private void Start()
     {
-        cameraShake = PlayerCamera.GetComponent<CameraShake>();
-        cameraFOV = PlayerCamera.GetComponent<CameraFOV>();
+        
+        //cameraShake = cameraManager.GetComponent<CameraShake>();
+        //cameraFOV = PlayerCamera.GetComponent<CameraFOV>();
+        
     }
 
     void Update()

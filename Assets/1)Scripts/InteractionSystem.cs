@@ -16,7 +16,7 @@ public class InteractionSystem : MonoBehaviour
     void Start()
     {
         textMeshProUI.enabled = false;
-         spawnPosition = targetObject.transform.position;
+        spawnPosition = targetObject.transform.position;
     }
 
     void Update()
